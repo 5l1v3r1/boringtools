@@ -1,0 +1,13 @@
+diff --git a/ltrace-0.7.3/value.c b/ltrace-0.7.3-mod/value.c
+index f7950da..f429076 100644
+--- a/ltrace-0.7.3/value.c
++++ b/ltrace-0.7.3-mod/value.c
+@@ -284,7 +284,7 @@ value_init_deref(struct value *ret_val, struct value *valp)
+ 
+ 	/* We need "long" to be long enough to hold platform
+ 	 * pointers.  */
+-	typedef char assert__long_enough_long[-(sizeof(l) < sizeof(void *))];
++	//typedef char assert__long_enough_long[-(sizeof(l) < sizeof(void *))];
+ 
+ 	value_common_init(ret_val, valp->inferior, valp,
+ 			  valp->type->u.ptr_info.info, 0);

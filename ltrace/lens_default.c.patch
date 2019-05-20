@@ -1,0 +1,13 @@
+diff --git a/ltrace-0.7.3/lens_default.c b/ltrace-0.7.3-mod/lens_default.c
+index 9f60dae..e26adb2 100644
+--- a/ltrace-0.7.3/lens_default.c
++++ b/ltrace-0.7.3-mod/lens_default.c
+@@ -344,7 +344,7 @@ format_array(FILE *stream, struct value *value, struct value_dict *arguments,
+ {
+ 	/* We need "long" to be long enough to cover the whole address
+ 	 * space.  */
+-	typedef char assert__long_enough_long[-(sizeof(long) < sizeof(void *))];
++	//typedef char assert__long_enough_long[-(sizeof(long) < sizeof(void *))];
+ 	long l;
+ 	if (expr_eval_word(length, value, arguments, &l) < 0)
+ 		return -1;
