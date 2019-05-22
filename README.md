@@ -10,6 +10,7 @@ Perl_XOR.Encrypt - Simple XOR "Encrypt" implementation in perl
 server-status-collector - Apache mod_status Collector 
 zoomeye-api - A OLD Zoomeye API script 
 pam_backlogger -  Pam Backdoor + Keylogger (patch file)
+ltrace - patch da versao 0.7.3
 ```
 tools that i made in "tedio" momments =D
 
