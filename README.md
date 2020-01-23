@@ -9,14 +9,9 @@ ExtratorAPK - Simple script for extract APK file from device using ADB
 Perl_XOR.Encrypt - Simple XOR "Encrypt" implementation in perl
 server-status-collector - Apache mod_status Collector 
 zoomeye-api - A OLD Zoomeye API script 
-pam_backlogger -  Pam Backdoor + Keylogger (patch file)
 ltrace - patch da versao 0.7.3
 CVE-2018-14667 - richfaces RCE payload DUMBBBBBBB
 utmp-hide - remove logs in utmp file ["/var/log/wtmp", "/var/log/btmp/", "/var/run/utmp"]
 ```
 tools that i made in "tedio" momments =D
 
-
-```
- 	crowlersong.pl - russian trip 
-```
